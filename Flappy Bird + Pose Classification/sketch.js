@@ -116,8 +116,6 @@ function draw() {
   // updates prevTouched
   prevTouched = touched;
 
-//--------------------------------------------------------
-
  push();
   translate(video.width, 0);
   scale(-1/3, 1/3);
@@ -145,8 +143,6 @@ function draw() {
   
   jumping();
   
-
-//------------------------------------
   
 }
 
