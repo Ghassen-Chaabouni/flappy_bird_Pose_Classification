@@ -47,14 +47,14 @@ function setup() {
   
   // LOAD PRETRAINED MODEL
   // const modelInfo = {
-  //   model: 'model2/model.json',
-  //   metadata: 'model2/model_meta.json',
-  //   weights: 'model2/model.weights.bin',
+  //   model: 'model/model.json',
+  //   metadata: 'model/model_meta.json',
+  //   weights: 'model/model.weights.bin',
   // };
   // brain.load(modelInfo, brainLoaded);
 
   // LOAD TRAINING DATA
-  // brain.loadData('ymca.json', dataReady);
+  // brain.loadData('data.json', dataReady);
 }
 
 function brainLoaded() {
@@ -96,11 +96,6 @@ function finished() {
   brain.save();
   classifyPose();
 }
-
-
-
-
-
 
 
 function gotPoses(poses) {
